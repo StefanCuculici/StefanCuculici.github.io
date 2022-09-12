@@ -1,16 +1,16 @@
 body {
-	background-color:white;
 	margin:0;
 	padding:0;
-    color:white;
-
-	
+    font-family: 'Dancing Script', cursive;
+    color:rgb(151, 5, 5);
+    background-color:whitesmoke;
 }
 
 .navigation {
     background-color:rgb(238, 119, 139);
     display:flex;
     font-family: 'Dancing Script', cursive;
+    border-bottom:3px solid rgb(151, 5, 5);
 }
 
 .nav1 {
@@ -64,14 +64,6 @@ ul li {
     transform: scale(1.1);
 }
 
-.link {
-    color:rgb(151, 5, 5);
-}
-
-.link:hover{
-    color:white;
-}
-
 .link2 {
     color:rgb(151, 5, 5);
 }
@@ -81,22 +73,59 @@ ul li {
 
 }
 
-.numar {
+.contact {
     transition: transform .2s;
     padding:0px;
-
+    color:rgb(151, 5, 5);
 }
 
-.numar:hover {
+.contact:hover {
     transform: scale(1.2);
+    color:white;
 }
 
-.adresa2{
-    transition: transform .2s;
+.main {
+    background-color:whitesmoke;
+    width:85%;
+
+    margin:auto;
+    box-sizing: border-box;
 }
 
-.adresa2:hover {
-    transform: scale(1.2);
+.descriere {
+    padding:20px;
+    padding-left: 40px;
+    color:rgb(151, 5, 5);
+    margin:0px;
+    font-size:30px;
 }
+
+.imagini {
+    box-sizing: border-box;
+    display:flex;
+}
+#image1{
+    width:400px;
+    height:400px;
+    padding:20px;
+    box-sizing: border-box;
+    margin:auto;
+}
+
+.tort {
+    padding-left:20px;
+    margin:0;
+    font-size:25px;
+} 
+
+.footer{
+    text-align:center;
+    padding:20px;
+    border-top:2px solid rgb(151, 5, 5);
+}
+
+
+
+
 
 
