@@ -140,6 +140,7 @@ footer {
     .main-section {
         flex-direction: column;
         padding-top:20px;
+        align-items:  center;
         text-align: center;
     }
 
